@@ -1,0 +1,281 @@
+@font-face{
+	font-family:'open sans';
+	src:url("OpenSans-Regular.ttf");
+}
+@font-face{
+	font-family:'passion one';
+	src:url("PassionOne-Regular.otf");
+}
+body{
+	background:url(../images/body-bg.gif) 50% 0; 
+	font:12px/18px arial;
+	color:#717171;
+	margin:0;
+	padding:0;
+	position:relative;
+}
+
+main{
+	background:url(../images/main-bg.jpg) no-repeat center 0;
+    min-height: 100%;
+   
+}
+header{
+    padding: 80px 0 0 0;
+    background: url(../images/slide-1.jpg) no-repeat center 80px ;
+    margin: 0px auto;
+    z-index: 2;
+    position: relative;
+    width: 950px;
+}
+
+.inner{
+    background: url(../images/header-bg.png);
+    overflow: hidden;
+    z-index: 2;
+    position: relative;
+}
+
+
+.logo{
+    position: relative;
+    padding :40px 80px 35px 40px;
+    float: left;
+    display: block;
+}
+
+.menu ul{
+    margin: 0;
+    list-style: none;
+}
+
+.menu li{
+    display: inline-block;
+    padding:30px 30px 20px 20px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 0;
+    font-size: 14px;
+    display: block;
+    font-family: 'open sans';
+    text-transform: uppercase;
+}
+
+.menu li:hover a{
+    background: url(../images/nav-active.png) no-repeat center 0px;
+    color:#afaa9b;
+}
+.mp-slider{
+    position: relative;
+    top: -138px;
+}
+.mp-slider img{
+    width:950px;
+}
+.mp-prev, .mp-next{
+    position: absolute;
+    width: 31px;
+    height: 402px;
+    top: 218px;
+    z-index: 3;
+}
+
+.mp-prev{
+    left: 0;
+    background: url(../images/slider-prev.png)no-repeat  0;
+}
+.mp-next{
+    right: 0;
+    background: url(../images/slider-next.png)no-repeat 0 0;
+}
+.mp-prev:hover{
+    left: 0;
+    background: url(../images/slider-prev.png)no-repeat right 0;
+}
+.mp-next:hover{
+    right: 0;
+    background: url(../images/slider-next.png)no-repeat right 0;
+}
+
+
+
+
+
+
+/************ content ************/
+
+
+
+
+.content-bg{
+    background: url(../images/body-bg.gif);
+    padding: 35px 20px 43px 20px;
+}
+
+dl,dd,dt{
+    margin: 0;
+    padding: 0;
+}
+
+.def-list-1 dt{
+    padding: 0 0 3px 0 ;
+    
+}
+
+.def-list-1 a{
+    text-decoration: none;
+    color: #c9960b;
+}
+
+.def-list-1 a:hover{
+    text-decoration: underline;
+}
+
+.button{
+    
+    font-size: 12px;
+    color: #fff;
+    text-decoration: underline;
+    background: url(../images/link-marker.gif) no-repeat right 7px;
+    padding: 0 11px 0 0;
+    display: inline-block;
+}
+
+.alignright{text-align: right;}
+
+.quote
+{
+	font-size:12px;
+	line-height:20px;
+	font-style:italic;
+	position: relative;
+    padding:10px 0 15px 10px;
+    left: -50px;
+    
+}
+
+.quote strong{
+    color:#b09609;
+	font-weight:normal;
+}
+
+
+.quote:before{
+    display:inline-block;
+    background:url(../images/quote-before.png) no-repeat 0 0;
+    content:" ";
+    width:14px;
+    height:13px;
+    margin:0 5px 0 0;   
+}
+
+
+
+
+.quote::after{
+    background:url(../images/quote-after.png) no-repeat 0 0;
+    width:14px;
+    height:13px; 
+    display: inline-block;
+    margin: 0 0 0 5px;
+    content: "";   
+}
+
+.author{
+    color: white;
+    font-family: 'open sans';
+    font-size: 15px;
+    padding: 0 50px 0 0;
+    position: relative;
+    left: -20px;
+}
+
+.banner-image{
+    float: right;
+    width: 20%;
+    height: 20%;
+    position: relative;
+    z-index: 2;
+    top: -258px;
+    left: -53px;
+}
+
+
+/***************** border ****************/
+
+
+
+
+.hr-border-1{
+    border-bottom: 1px solid grey;
+    margin: 0 0 9px 0;
+}
+
+.banner-box
+{
+	background:#292929;
+	padding:25px 135px 35px 40px;
+    position:relative;
+}
+
+.banner-box h3{
+	font-size:34px;
+	line-height:40px;
+	padding:0;
+	font-weight: 100;
+}
+
+.banner-box h4{
+    font-size:21px;
+    font-family: 'open sans';
+}
+
+
+
+
+
+
+/*********** heading ****************/
+
+
+
+
+h1,h2,h3,h4,h5,h6{
+    color: #fff;
+    padding: 0 0 9px 0;
+    font-weight: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'passion one';
+}
+
+h1{font-size:40px;line-height:48px;}
+h2{font-size:36px;line-height:44px;}
+h3{font-size:32px;line-height:40px;}
+h4{font-size:28px;line-height:34px;}
+h5{font-size:24px;line-height:30px;}
+h6{font-size:20px;line-height:24px;}
+
+.indent-bottom h2{
+    font-family: 'passion one';
+    color: white;
+    font-weight: 100;
+} 
+
+
+
+/************** indents ***************/
+
+
+
+
+
+.indent-bottom{
+    padding: 0 0 32px 0;
+}
+.img-indent-bot{
+    margin: 5px 0 16px 0;
+}

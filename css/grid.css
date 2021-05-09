@@ -1,0 +1,29 @@
+.container{
+    width:950px;
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    top: -28px;
+}
+.wrap-col{
+    margin:10px;
+}
+
+.container .adjust-1{ width:75%}
+.container .adjust-2{ width: 25%}
+
+
+.container .adjust-1 ,.container .adjust-2{ float: left; display:inline-block;}
+
+.container .row:before, .row:after{
+    content: " ";
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.container .row:after{
+    clear: both;
+}
